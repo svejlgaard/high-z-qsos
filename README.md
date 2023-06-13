@@ -11,6 +11,7 @@ The students will search for new, bright QSOs at z>2 in the SkyMapper/PAN-STARRS
 ## Reference paper
 
 - [Calderone et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...887..268C/abstract): Finding the Brightest Cosmic Beacons in the Southern Hemisphere;
+- [VOSS23 Slides](http://140.105.76.151:8000/VOSS_Calderone_slides.pdf);
 
 ## Input catalogs
 
