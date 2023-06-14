@@ -11,17 +11,17 @@ The students will search for new, bright QSOs at z>2 in the SkyMapper/PAN-STARRS
 ## Reference paper
 
 - [Calderone et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...887..268C/abstract): Finding the Brightest Cosmic Beacons in the Southern Hemisphere;
-- [VOSS23 Slides](http://140.105.76.151:8000/VOSS_Calderone_slides.pdf);
+- [VOSS23 Slides](http://140.105.76.151:8000/VOSS23/VOSS_Calderone_slides.pdf);
 
 ## Input catalogs
 
-- PanSTARRS1 DR2 ([docs](https://outerspace.stsci.edu/display/PANSTARRS/PS1+StackObjectView+table+fields));
+- PanSTARRS1 DR2 ([fits](http://140.105.76.151:8000/VOSS23/PanSTARRS1DR2.fits.gz), [docs](https://outerspace.stsci.edu/display/PANSTARRS/PS1+StackObjectView+table+fields));
 
-- Gaia DR3 ([docs](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_main_source_catalogue/ssec_dm_gaia_source.html));
+- Gaia DR3 ([fits](http://140.105.76.151:8000/VOSS23/Gaia_EDR3.fits.gz), [docs](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_main_source_catalogue/ssec_dm_gaia_source.html));
 
-- AllWise ([docs](https://wise2.ipac.caltech.edu/docs/release/allwise/expsup/sec2_1a.html));
+- WISE ([AllWISE](http://140.105.76.151:8000/VOSS23/AllWise.fits.gz), [CatWISE](http://140.105.76.151:8000/VOSS23/Catwise2020.fits.gz) [docs](https://wise2.ipac.caltech.edu/docs/release/allwise/expsup/sec2_1a.html));
 
-- Spectroscopic classification and redshifts ([fits](http://140.105.76.151:8000/VOSS_classifications.fits.gz))
+- Spectroscopic classification and redshifts ([fits](http://140.105.76.151:8000/VOSS23/VOSS_classifications.fits.gz))
   
   *(This is a collection of data from many smaller catalogs, prepared in advance to avoid dedicating time to minor issues).*
   
