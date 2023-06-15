@@ -44,6 +44,16 @@ The students will search for new, bright QSOs at z>2 in the SkyMapper/PAN-STARRS
 
   - `z_spec`: spectroscopic redshift.
 
+The following files contains the same catalogs as above, but for a limited region of the sky (how many squre degrees?) and with no cuts in magnitudes:
+- PanSTARRS1 DR2 ([fits](http://140.105.76.151:8000/VOSS23/subset_PanSTARRS1DR2.fits.gz));
+
+- Gaia DR3 ([fits](http://140.105.76.151:8000/VOSS23/subset_Gaia_EDR3.fits.gz));
+
+- WISE ([AllWISE](http://140.105.76.151:8000/VOSS23/subset_AllWise.fits.gz));
+
+
+
+
 ## Tasks
 
 - Data collection: download data from SkyMapper/PAN-STARRS and auxiliary databases (e.g. Gaia, WISE, QSO catalogs);
