@@ -125,5 +125,5 @@ for c,cat in enumerate(catalogs):
     plt.savefig(main_path+f'/figures/{cat}_dist.pdf')
 
 
-vossdata = vossdata[(vossdata['gaia_double'] == 0) & (vossdata['wise_double'] == 0) & (vossdata['panstarrs'] == 0)]
+vossdata = vossdata[(vossdata['gaia_double'] == 0) & (vossdata['wise_double'] == 0) & (vossdata['panstarrs_double'] == 0)]
 print(vossdata)
