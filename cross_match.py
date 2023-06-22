@@ -85,7 +85,7 @@ for c,cat in enumerate(catalogs):
     catcoord = catdata[cat_cols[c]].to_numpy()
     
 
-    max_radius = 1. / 3600  # 1 arcsec
+    max_radius = 0.75 / 3600  # 1 arcsec
     dist_cat_to_voss, ind_cat_to_voss = crossmatch_angular(catcoord, vosscoord, max_radius)
     inv_flag_match = flags(dist_cat_to_voss, ind_cat_to_voss)
 
@@ -126,4 +126,11 @@ for c,cat in enumerate(catalogs):
 
 
 vossdata = vossdata[(vossdata['gaia_double'] == 0) & (vossdata['wise_double'] == 0) & (vossdata['panstarrs_double'] == 0)]
-print(vossdata)
+print(len(vossdata))
+for c,cat in enumerate(catalogs):
+    catdata = init_load(main_path+cat_paths[c])
+    print(catdata.keys().to_list())
+    vossdata = pd.merge(vossdata,catdata,left_on=cat+'_match',right_on='_id',how='left')
+    print(len(vossdata))
+v = Table.from_pandas(vossdata)
+v.write(main_path+'/final_cat.fits',overwrite=True)
