@@ -28,7 +28,7 @@ The students will search for new, bright QSOs at z>2 in the SkyMapper/PAN-STARRS
 
 - Gaia DR3 ([fits](http://140.105.76.151:8000/VOSS23/Gaia_EDR3.fits.gz), [docs](https://gea.esac.esa.int/archive/documentation/GDR3/Gaia_archive/chap_datamodel/sec_dm_main_source_catalogue/ssec_dm_gaia_source.html));
 
-- WISE ([AllWISE](http://140.105.76.151:8000/VOSS23/AllWise.fits.gz), [CatWISE](http://140.105.76.151:8000/VOSS23/Catwise2020.fits.gz) [docs](https://wise2.ipac.caltech.edu/docs/release/allwise/expsup/sec2_1a.html));
+- WISE ([AllWISE](http://140.105.76.151:8000/VOSS23/AllWise.fits.gz), [CatWISE](http://140.105.76.151:8000/VOSS23/Catwise2020.fits.gz), [docs](https://wise2.ipac.caltech.edu/docs/release/allwise/expsup/sec2_1a.html));
 
 - Spectroscopic classification and redshifts ([fits](http://140.105.76.151:8000/VOSS23/VOSS_classifications.fits.gz))
 
@@ -43,6 +43,16 @@ The students will search for new, bright QSOs at z>2 in the SkyMapper/PAN-STARRS
   - `objtype`: spectroscopic classification;
 
   - `z_spec`: spectroscopic redshift.
+
+The following files contains the same catalogs as above, but for a limited region of the sky (how many squre degrees?) and with no cuts in magnitudes:
+- PanSTARRS1 DR2 ([fits](http://140.105.76.151:8000/VOSS23/subset_PanSTARRS1DR2.fits.gz));
+
+- Gaia DR3 ([fits](http://140.105.76.151:8000/VOSS23/subset_Gaia_EDR3.fits.gz));
+
+- WISE ([AllWISE](http://140.105.76.151:8000/VOSS23/subset_AllWise.fits.gz), [CatWISE](http://140.105.76.151:8000/VOSS23/subset_Catwise2020.fits.gz));
+
+
+
 
 ## Tasks
 
